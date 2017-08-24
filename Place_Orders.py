@@ -10,7 +10,7 @@ def listSelector (choice):
 	elif choice == 3:
 		return 'sysco.csv'
 
-		#Picks the correct CSV file to open
+#Picks the correct CSV file to open
 def selectionMenu ():
 	selection = 0
 	while selection == 0:
@@ -76,5 +76,5 @@ def orderEngine(runStatus):
 		print (finalOrder)
 
 		runStatus = askAnotherOrder()
-		
+
 orderEngine(1)
